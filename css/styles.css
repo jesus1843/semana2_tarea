@@ -1,0 +1,38 @@
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+header .jumbotron {
+    margin-bottom: 0;
+}
+
+nav.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.card img {
+    height: 250px;
+    object-fit: cover;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 1rem;
+}
+
+.footer {
+    background-color: #FF7B5F;
+}
+
+.footer .socials {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .icon {
+    font-size: 3rem;
+}

@@ -1,0 +1,25 @@
+{
+  "name": "tarea_semana_2",
+  "version": "1.0.0",
+  "description": "Tarea de la Semana 2 del programa especializado 'Full-Stack Web Development en Español'",
+  "main": "index.js",
+  "scripts": {
+    "dev": "lite-server"
+  },
+  "keywords": [
+    "fullstack",
+    "frontend",
+    "bootstrap",
+    "homework"
+  ],
+  "author": "J. Jesús Villanueva Jr.",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "4.6.2",
+    "jquery": "3.5.1",
+    "popper.js": "1.16.1-lts"
+  }
+}
