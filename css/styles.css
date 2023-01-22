@@ -5,13 +5,14 @@ a {
 
 header .jumbotron {
     margin-bottom: 0;
+    margin-top: 56px;
 }
 
-nav.navbar {
+/* nav.navbar {
     position: sticky;
     top: 0;
     z-index: 10;
-}
+} */
 
 .card img {
     height: 250px;

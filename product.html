@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Tienda Muebles</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="fa-solid fa-store"></i> Tienda Muebles
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">Acerca de</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="products.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="header">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4"><i class="fa-solid fa-store"></i> Tienda Muebles</h1>
+                <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores totam quaerat aspernatur, fuga accusantium tempora? Ab, cumque. Ea, obcaecati! Deleniti.</p>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="my-5">
+            <h2 class="text-center mb-4">Producto 1</h2>
+            <div class="row">
+                <div class="col-lg-6">
+                    <picture class="d-block p-1 shadow rounded" style="border: solid 1px #000;">
+                        <img src="img/products/product_1.jpg" class="img-fluid rounded" width="100%" style="border: solid 1px #000;" alt="producto-01">
+                    </picture>
+                </div>
+                <div class="col-lg-6 mt-3 mt-lg-0">
+                    <h2>Description</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore est possimus vitae ipsa obcaecati unde id, perspiciatis in, dolores asperiores minus suscipit, nostrum dolorum soluta!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas aliquam ullam consectetur dolorum praesentium. Ipsum rem eum quod sit omnis?</p>
+                    <div class="d-flex justify-content-between">
+                        <p class="h4">Precio: <span class="badge badge-pill badge-primary">$250</span></p>
+                        <p class="h4">Cantidad disponible: <span class="badge badge-pill badge-warning">30</span></p>
+                    </div>
+                    <button class="btn btn-success btn-block btn-lg mt-3">
+                        <i class="fa-solid fa-dollar-sign"></i>
+                        Comprar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container p-5">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-4">
+                    <h3><i class="fa-solid fa-store"></i> Tienda Muebles</h3>
+                    <address>
+                        Visítanos en: <br>
+                        TiendaMuebles.com <br>
+                        Calle A #300, NL <br>
+                        MEX
+                    </address>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <h5>Misión y Visión</h5>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum rem officiis expedita, voluptate beatae iure quos inventore enim doloribus dignissimos! Cum odio odit ratione praesentium exercitationem accusamus ducimus sit? Voluptatibus.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus error possimus ullam labore laudantium recusandae doloremque aperiam nemo voluptatibus modi.</p>
+                </div>
+                <div class="col-12 col-md-4">
+                    <h5>Redes Sociales</h5>
+                    <div class="socials">
+                        <a href="#" class="icon"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="icon"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="icon"><i class="fa-brands fa-facebook-messenger"></i></a>
+                        <a href="#" class="icon"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="copy m-0 p-3 text-center shadow">&copy; Tienda Muebles</p>
+    </footer>
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
