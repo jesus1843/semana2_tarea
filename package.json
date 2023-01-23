@@ -4,7 +4,8 @@
   "description": "Tarea de la Semana 2 del programa especializado 'Full-Stack Web Development en Español'",
   "main": "index.js",
   "scripts": {
-    "dev": "lite-server"
+    "dev": "lite-server",
+    "scss": "node-sass scss/main.scss css/styles.css"
   },
   "keywords": [
     "fullstack",
@@ -15,7 +16,8 @@
   "author": "J. Jesús Villanueva Jr.",
   "license": "ISC",
   "devDependencies": {
-    "lite-server": "^2.6.1"
+    "lite-server": "^2.6.1",
+    "node-sass": "^8.0.0"
   },
   "dependencies": {
     "bootstrap": "4.6.2",
