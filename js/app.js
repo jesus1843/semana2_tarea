@@ -1,11 +1,16 @@
-document.addEventListener('DOMContentLoaded', function() {
-    const queryString = window.location.search;
-    const urlParams = new URLSearchParams(queryString);
-
-    const contactFormH3 = document.getElementById('contact-form').querySelector('h3');
-
-    contactFormH3.insertAdjacentHTML(
-        'afterend',
-        `<p class="alert alert-${ +urlParams.get('send') ? 'success' : 'danger' }">${ +urlParams.get('send') ? 'Mensaje enviado' : 'Error al enviar mensaje' }</p>`
-    );
+$(function() {
+    var modalIDs = $.map([1, 2, 3, 4, 5, 6], function(n, i) {
+        return '#producto-0' + n + '-modal';
+    });
+    $.each(modalIDs, function(index, id) {
+        var btnClicked = $('[data-target="'+id+'"]');
+        $(id).on('show.bs.modal', function() {
+            btnClicked.removeClass('btn-primary');
+            btnClicked.addClass('btn-danger');
+        });
+        $(id).on('hidden.bs.modal', function() {
+            btnClicked.removeClass('btn-danger');
+            btnClicked.addClass('btn-primary');
+        });
+    });
 });
